@@ -12,10 +12,11 @@
  * Do not edit the class manually.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-class Configuration {
-    constructor(accessToken, basePath) {
-        this.apiKey = `Bearer ${accessToken}`;
+var Configuration = /** @class */ (function () {
+    function Configuration(accessToken, basePath) {
+        this.apiKey = "Bearer " + accessToken;
         this.basePath = basePath;
     }
-}
+    return Configuration;
+}());
 exports.Configuration = Configuration;
